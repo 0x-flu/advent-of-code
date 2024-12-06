@@ -1,3 +1,4 @@
+# --- Day 2: Red-Nosed Reports ---
 def to_num(vec) -> list:
     return [int(x) for x in vec]
 
@@ -26,7 +27,7 @@ def can_be_safe_with_removal(vec) -> bool:
 with open("../input.txt", "r") as file:
     content = file.readlines()
 
-# Part I
+# part I
 counter = 0
 for line in content:
     vector = line.split()
@@ -34,7 +35,7 @@ for line in content:
         counter += 1
 print("Part I: ", counter)
 
-# Part II
+# part II
 counter2 = 0
 for line in content:
     vector = line.split()
